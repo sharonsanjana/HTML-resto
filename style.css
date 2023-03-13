@@ -1,0 +1,102 @@
+body
+{
+    margin: 45px;
+    text-align: center;
+}
+.nabar
+{
+    background-color: rgba(169, 169, 169, 0.312);
+    border-radius: 40px;
+}
+.navbar li
+{
+float:left;
+list-style: none;
+margin: 15px 30px;
+}
+.navbar
+{
+    float: right;
+    padding-left: 900px;
+    position: absolute;
+    border: 1px;
+    padding-bottom: 100px;
+    overflow: auto;
+    
+}
+.navbar a
+{
+   padding: 4px 4px;
+   text-decoration: none;
+   color: aliceblue;
+}
+.navbar a:hover
+{
+    color: black;
+    border-bottom: solid ;
+}
+.Search
+{
+    float: right;
+    padding-left: 500%;
+    color: rgba(128, 0, 0, 0.57);
+   
+}
+.navbar input
+{
+border: 3px solid rgba(210, 105, 30, 0.579);
+border-radius: 15px;
+padding: 4px 19px;
+width: 135px;
+}
+.bg h1
+{
+    color: rgba(165, 42, 42, 0.675);
+    font-size:x-large ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-shadow: 2px 4px 4px rgb(146, 165, 171);
+}
+.slider
+{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(148, 129, 78);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.header
+{
+    background-color: rgba(0, 0, 0, 0.273);
+    padding:50px;
+}
+ .headerlogo 
+ {
+   padding-left: 20px;
+    padding-top: 10px; 
+ }
+
+    
+
+img.headerlogo
+{
+   float: left;
+   
+}
+.header-name
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    vertical-align: top;
+    padding-right: 90px; 
+}
+
+.section{
+    background-image:url("menu.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
